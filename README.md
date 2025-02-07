@@ -70,8 +70,9 @@ The dataset includes the following variables:
 * `Location`: Categorical variable indicating urban, suburban, or rural location.
 
 **Phase 2:**
-    * `state_financial_literacy_data.csv`  - Contains state-level financial literacy data, including mean, median, standard deviation, IQR, and rankings.
-    * `teacher_student_ratio_data.csv`
+
+`state_financial_literacy_data.csv`- Contains state-level financial literacy data, including mean, median, standard deviation, IQR, and rankings.
+    `teacher_student_ratio_data.csv`
  - Contains state-level teacher-to-student ratio data.
 
   
