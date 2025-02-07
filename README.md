@@ -8,7 +8,6 @@
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
-- [EDA](#eda)
 - [Data Analysis](#data-analysis)
 - [Results](#results)
 - [Recommendations](#recommendations)
@@ -70,13 +69,10 @@ The dataset includes the following variables:
 * `Financial Literacy Score`: Numerical score (0-100) representing financial knowledge.
 * `Location`: Categorical variable indicating urban, suburban, or rural location.
 
-
-* **Phase 2:**
-    * `state_financial_literacy_data.csv`  - Contains state-level financial literacy data, including mean, median, standard deviation, IQR, and rankings.  *(Include a brief description of the source of this data, e.g., "National Survey of Financial Capability")*
+**Phase 2:**
+    * `state_financial_literacy_data.csv`  - Contains state-level financial literacy data, including mean, median, standard deviation, IQR, and rankings.
     * `teacher_student_ratio_data.csv`
- - Contains state-level teacher-to-student ratio data. *(Include a brief description of the source of this data, e.g., "National Center for Education Statistics")*
-    * `[Name of External Dataset].csv` (Chosen by Analyst)
- - Contains data on [Description of data, e.g., number of banks per capita, unemployment rates, median household income]. *(Include a detailed description of the source of this data, e.g., "Federal Deposit Insurance Corporation (FDIC) - Summary of Deposits")*
+ - Contains state-level teacher-to-student ratio data.
 
   
 ##### Deliverables:
@@ -139,8 +135,8 @@ This dataset provides a comprehensive overview of financial literacy across diff
 3. **Total Score:** The overall financial literacy score for the state. This score likely represents a weighted combination of the other sub-scores. The specific methodology for calculating this score should be documented elsewhere.
 4. **Wallet Literacy Score:** A score representing the state's performance in "wallet literacy." This likely encompasses practical financial skills related to managing money, budgeting, saving, and making informed purchasing decisions.
 5. **Financial Knowledge & Education Rank:** The state's ranking based on financial knowledge and education. A lower rank indicates a higher level of financial knowledge and/or better access to financial education resources.
-6. Financial Planning & Habits Rank: The state's ranking specifically related to financial planning and habits. A lower rank suggests better financial planning and habits within the state.
-7. Financial Knowledge & Education Rank: The state's ranking based on financial knowledge and education. A lower rank indicates a higher level of financial knowledge and/or better access to financial education resources.
+6. **Financial Planning & Habits Rank:** The state's ranking specifically related to financial planning and habits. A lower rank suggests better financial planning and habits within the state.
+7. **Financial Knowledge & Education Rank:** The state's ranking based on financial knowledge and education. A lower rank indicates a higher level of financial knowledge and/or better access to financial education resources.
 ### Tools
 
 - [Microsoft excel](https://www.microsoft.com/en-us/microsoft-365/excel)  A spreadsheet software widely used for data entry, organization, basic calculations, and creating simple visualizations.  It's often a starting point for data exploration and manipulation.
@@ -403,50 +399,62 @@ print(importance_df)
 
 #### Phase 
 
-1. For the Under 18 Groups (Rural, Low/Middle Income, Bachelor's/Some College): Focus on Foundational Skills: These individuals are likely still in high school or just starting college.
+1. `For the Under 18 Groups (Rural, Low/Middle Income, Bachelor's/Some College):` Focus on Foundational Skills: These individuals are likely still in high school or just starting college.
 The focus should be on building a strong foundation in personal finance.
-   - Recommendation 1: Partner with Rural Schools: Collaborate with high schools and community colleges in rural areas to integrate financial literacy into the curriculum. This could be through workshops, guest lectures, or even incorporating modules into existing courses like math or social studies.
-   - Recommendation2: Age-Appropriate Content: Develop engaging, age-appropriate content that resonates with teenagers. This could include using gamification, interactive online tools, or real-life scenarios relevant to their experiences (e.g., budgeting for social activities, understanding part-time job paychecks, planning for college expenses).
-   - Recommendation 3: Emphasize Long-Term Planning: While immediate needs are important, introduce the concept of long-term financial planning, including saving for college, understanding debt, and the basics of investing.
-   - Recommendation 4: Utilize Technology and Online Resources: Given the rural location, online resources and webinars could be particularly effective in reaching this demographic. Create easily accessible online modules and interactive tools.
-   - Recommendation 5: Peer-to-Peer Mentorship: Pair older students or young professionals with younger students to provide mentorship and guidance on financial matters.
+   - **Recommendation 1:** Partner with Rural Schools: Collaborate with high schools and community colleges in rural areas to integrate financial literacy into the curriculum. This could be through workshops, guest lectures, or even incorporating modules into existing courses like math or social studies.
+   - **Recommendation2:** Age-Appropriate Content: Develop engaging, age-appropriate content that resonates with teenagers. This could include using gamification, interactive online tools, or real-life scenarios relevant to their experiences (e.g., budgeting for social activities, understanding part-time job paychecks, planning for college expenses).
+   - **Recommendation 3:** Emphasize Long-Term Planning: While immediate needs are important, introduce the concept of long-term financial planning, including saving for college, understanding debt, and the basics of investing.
+   - **Recommendation 4:** Utilize Technology and Online Resources: Given the rural location, online resources and webinars could be particularly effective in reaching this demographic. Create easily accessible online modules and interactive tools.
+   - **Recommendation 5:** Peer-to-Peer Mentorship: Pair older students or young professionals with younger students to provide mentorship and guidance on financial matters.
 
-2. Specific Recommendations for the "Bachelor's Degree" Subgroup (Under 18):
+2. `Specific Recommendations for the "Bachelor's Degree" Subgroup (Under 18):`
 Address Misconceptions: The fact that these individuals are pursuing a bachelor's degree but still exhibit low financial literacy suggests a potential disconnect between academic pursuits and practical financial knowledge. Address common misconceptions about debt, student loans, and the value of different degrees in terms of career prospects and earning potential.
 
-3. For the 18-24 Group (Suburban, Low Income, Graduate Degree):
+3. `For the 18-24 Group (Suburban, Low Income, Graduate Degree):`
 Focus on Practical Application and Debt Management: This group is likely navigating early adulthood, including managing student loan debt, starting careers, and potentially starting families.
 
-   - Recommendation 1: Workshops on Debt Management: Offer workshops specifically focused on managing student loans, credit card debt, and other forms of debt. Provide tools and resources for creating budgets and repayment plans.
-   - Recommendation 2: Career and Financial Planning Integration: Connect financial literacy with career planning. Help them understand the financial implications of different career paths, salary negotiation, and benefits packages.
-   - Recommendation 3: Focus on Investing and Saving: Introduce basic investment concepts and strategies for building long-term wealth. Emphasize the importance of saving and budgeting, especially given their low-income status.
-   - Recommendation 4: Targeted Outreach to Graduate Programs: Partner with graduate programs in suburban areas to offer workshops and resources specifically tailored to the financial challenges faced by graduate students.
+   - **Recommendation 1:** Workshops on Debt Management: Offer workshops specifically focused on managing student loans, credit card debt, and other forms of debt. Provide tools and resources for creating budgets and repayment plans.
+   - **Recommendation 2:** Career and Financial Planning Integration: Connect financial literacy with career planning. Help them understand the financial implications of different career paths, salary negotiation, and benefits packages.
+   - **Recommendation 3:** Focus on Investing and Saving: Introduce basic investment concepts and strategies for building long-term wealth. Emphasize the importance of saving and budgeting, especially given their low-income status.
+   - **Recommendation 4:** Targeted Outreach to Graduate Programs: Partner with graduate programs in suburban areas to offer workshops and resources specifically tailored to the financial challenges faced by graduate students.
   
-4. Overarching Recommendations:
-   - Tailored Messaging: Develop targeted messaging that speaks to the specific needs and concerns of each demographic group.
-   - Measure and Evaluate: 
+4. `Overarching Recommendations:`
+   - **Tailored Messaging:** Develop targeted messaging that speaks to the specific needs and concerns of each demographic group.
+   - **Measure and Evaluate:** 
 Track the effectiveness of programs and make adjustments as needed. Collect data on program participation, changes in financial knowledge, and behavioral changes.
-   - Community Partnerships: 
+   - **Community Partnerships: **
 Collaborate with local community organizations, libraries, and other institutions in rural and suburban areas to expand reach and access to programs.
-   - Financial Aid Awareness: 
+   - **Financial Aid Awareness:** 
 Emphasize awareness of available financial aid, scholarships, and grants to reduce the financial burden on low-income individuals pursuing higher education
 
-- Consider exploring additional variables that may better explain financial literacy rankings.
-- Further analysis with multiple regression could help identify the strongest predictors.
+- **Consider exploring additional variables that may better explain financial literacy rankings**.
+- **Further analysis with multiple regression could help identify the strongest predictors.**
    
 
 
 
 ### Limitations
+the analysis has few limitations duo to
+1. handling missing values through
+
+   - KNN Imputer for numerical features
+   - missing categorical feature replacement with constant
+
+2. the size of data wasn't sufficient
 
 
 
 ### References
 
 
+- for extra informations about the effect of KNN Imputer please refer to that reference about the algorithm 
+[Documentation](https://en.m.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 
 
+- for extra informations about the implementation chick [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html)
 
+- reference for the used model [random Forest](https://en.m.wikipedia.org/wiki/Random_forest)
+- reference about the implication [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 ### Contact
 
